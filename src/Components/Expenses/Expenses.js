@@ -1,6 +1,6 @@
-import './Expenses.css';
+import "./Expenses.css";
 import ExpenseItem from "./ExpenseItem";
-import Card from '../UI/Card';
+import Card from "../UI/Card";
 
 const Expenses = (props) => {
   return (
@@ -27,6 +27,6 @@ const Expenses = (props) => {
       />
     </Card>
   );
-}
+};
 
 export default Expenses;
